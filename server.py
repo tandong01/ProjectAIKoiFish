@@ -40,7 +40,7 @@ if uploaded_file is not None:
         st.write("Độ chính xác là: {:.2f} %".format(100*np.max(prediction[0],axis=0)))
 
 if video is not None:
-    cap = video
+    cap = cv2.VideoCapture(video)
     while(True):
         # Capture frame-by-frame
         #
