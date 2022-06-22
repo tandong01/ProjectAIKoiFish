@@ -1,5 +1,4 @@
 import numpy as np
-import cv2
 import streamlit as st
 import tensorflow as tf
 from streamlit_option_menu import option_menu
